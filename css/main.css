@@ -92,7 +92,7 @@
         font-size: 1.5rem;
         padding: 1.5rem .8rem;
     }
-
+    
     .swiper-slide {
         padding: 2rem 13rem;
     }
@@ -146,8 +146,8 @@
     
     .swiper-slide .thumbnail {
         display: block;
-        width: 50%;
-        height: 100%;
+        width: 400px;
+        height: 400px;
         object-fit: cover;
         background: url('/img/logo_375.png');
     }
