@@ -1,0 +1,41 @@
+@import 'header.css';
+@import 'main.css';
+@import 'contato.css';
+
+:root {
+    --primary-color: #EEEEEE;
+    --bg-color: #efeff0;
+    --terciary-color: #686D76;
+    --decorations: #DC5F00;
+    --black: #000000;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.titulo_secao {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    text-wrap: nowrap;
+}
+
+a {
+    text-decoration: none;
+}
+

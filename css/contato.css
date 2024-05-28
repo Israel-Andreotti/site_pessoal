@@ -1,0 +1,27 @@
+.contato {
+    margin-top: 2rem;
+}
+
+.contato-container-span {
+    display: grid;
+    place-content: center;
+    font-size: 1.2rem;
+}
+
+.contato-container-titulo {
+    color: aquamarine;
+}
+
+.contato-icon {
+    display: grid;
+    place-content: center;
+    margin: 2rem 0;
+}
+
+
+.contato-icon a {
+    border: none;
+    font-size: 1.4em;
+    cursor: pointer;
+    color: var(--black);
+}
