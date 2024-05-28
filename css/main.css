@@ -52,6 +52,7 @@
     flex-direction: column;
     padding: 1rem;
 }
+
 .swiper-slide span {
     font-size: 1.5rem;
     font-weight: 600;
@@ -73,4 +74,98 @@
 
 .swiper-pagination {
     margin-top: 2rem;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) {
+    .apresentacao img {
+        display: block;
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-container {
+        display: grid;
+        place-content: center;
+        font-size: 1.5rem;
+        padding: 1.5rem .8rem;
+    }
+
+    .swiper-slide {
+        padding: 2rem 13rem;
+    }
+
+    .swiper-slide .thumbnail {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        background: url(/img/logo_375.png);
+    }
+
+    .swiper-slide span {
+        font-size: 2rem;
+    }
+
+    .swiper-slide p {
+        font-size: 1.4rem;
+    }
+
+    .swiper-slide .swiper-slide-btn {
+        display: flex;
+        align-items: center;
+    }
+
+    .swiper-slide .swiper-slide-btn img {      
+        height: 80px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .header img {
+        margin-left: 3rem
+    }
+
+    .apresentacao img {
+        width: 40%;
+    }
+
+    .about .wave {
+        display: none;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .swiper-slide .thumbnail {
+        display: block;
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        background: url('/img/logo_375.png');
+    }
+
+    .swiper-slide-btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 500px;
+        transition: .2s ease-in-out;
+    }
+
+    .swiper-slide-btn:hover {
+        background-color: var(--terciary-color);
+        color: white
+    }
+    
+    .swiper-slide-btn span {
+        padding-right: 9rem;
+    }
 }
