@@ -1,23 +1,20 @@
 .contato {
     margin-top: 2rem;
+    background-color: var(--terciary-color);
 }
 
 .contato-container-span {
     display: grid;
     place-content: center;
-    font-size: 1.2rem;
-}
-
-.contato-container-titulo {
-    color: aquamarine;
+    font-size: 1.5rem;
+    padding-top:1rem
 }
 
 .contato-icon {
     display: grid;
     place-content: center;
-    margin: 2rem 0;
+    padding: 2rem 0 1rem 0;
 }
-
 
 .contato-icon a {
     border: none;
