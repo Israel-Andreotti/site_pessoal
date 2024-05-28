@@ -59,7 +59,10 @@
     cursor: pointer;
 }
 
-
 .swiper-slide-btn img {
     padding-right: 5rem;
+}
+
+.swiper-pagination {
+    margin-top: 2rem;
 }
